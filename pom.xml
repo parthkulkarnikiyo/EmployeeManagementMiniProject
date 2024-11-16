@@ -53,7 +53,28 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+			<!-- Spring Boot Starter Web (required for REST APIs) -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+			</dependency>
+
+			<!-- Springdoc OpenAPI UI (Swagger UI integration) -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>2.1.1</version> <!-- Change this version -->
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-data-rest</artifactId>
+			<version>2.1.1</version> <!-- Change this version -->
+		</dependency>
+
 	</dependencies>
+
 
 	<build>
 		<plugins>
@@ -63,5 +84,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
